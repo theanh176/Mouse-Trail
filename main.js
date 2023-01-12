@@ -142,7 +142,4 @@ document.addEventListener("mousemove", (e) => {
     let _y = e.clientY / window.innerHeight * 600;
 
 	transfrom(x, _x, _y);
-
-	let coor = "Coordinates: (" + _x + "," + _y + ")";
-	console.log(coor);
 });
